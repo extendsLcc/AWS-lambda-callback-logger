@@ -41,7 +41,7 @@ app.get('/callback-logger', (req, res) => {
 });
 
 // Error handler
-app.use((err, req, res) => {
+app.use((err, res) => {
     console.error(err);
     res.status(StatusCodes.INTERNAL_SERVER_ERROR).send('Internal Serverless Error');
 });
