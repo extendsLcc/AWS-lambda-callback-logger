@@ -1,0 +1,9 @@
+{
+  "name": "callback-logger",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4"
+  }
+}
